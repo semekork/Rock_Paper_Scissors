@@ -7,11 +7,7 @@
 }
 body{
     height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #ffcf1b,
-        #ff8b1b
-    );
+    background-image: url(Splash.jpg);
 }
 .container{
     width: 45%;
@@ -36,8 +32,11 @@ body{
     justify-content: space-around;
 }
 .weapons button{
-    background-color: #ffd51b;
-    color: #000000;
+    background: linear-gradient(
+        135deg,
+        #1bb3ff,
+        #9607f5);
+    color: #fefefe;
     border: none;
     font-size: 50px;
     height: 100px;
@@ -70,3 +69,16 @@ body{
 span{
     font-weight: 600;
 }
+body #watermark {
+    position: fixed;
+    font-size: 8em;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.36);
+    z-index: 0;
+    text-align: left;
+    font-family: "proxima-nova", "Lato", sans-serif;
+  }
